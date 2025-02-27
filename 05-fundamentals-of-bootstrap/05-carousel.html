@@ -10,8 +10,10 @@
 
 <body>
   <div class="container">
+    <!-- carousel의 id 값과 각 버튼의 data-bs-target 값이 같은지 꼭 확인할 것 -->
+
     <!-- carousel 1 -->
-    <div id="carousel-1" class="carousel slide">
+    <div id="carousel-first" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/01.jpg" class="d-block w-100" alt="...">
@@ -23,20 +25,18 @@
           <img src="images/03.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-first" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-first" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
 
-  <div class="container">
     <!-- carousel 2 -->
-    <div id="carouselExample" class="carousel slide">
+    <div id="carousel-second" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/04.jpg" class="d-block w-100" alt="...">
@@ -48,11 +48,11 @@
           <img src="images/06.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-second" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-second" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
